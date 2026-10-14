@@ -1,0 +1,8 @@
+2026-08-03 18:17:08 - preprocessing - INFO - Running preprocessing pipeline
+2026-08-03 18:17:08 - preprocessing - ERROR - Preprocessing failed: 'charmap' codec can't decode byte 0x8f in position 2399: character maps to <undefined>
+2026-08-03 18:20:38 - preprocessing - INFO - Running preprocessing pipeline
+2026-08-03 18:20:38 - preprocessing - ERROR - Preprocessing failed: 'charmap' codec can't decode byte 0x8f in position 2399: character maps to <undefined>
+2026-08-03 18:20:59 - preprocessing - INFO - Running preprocessing pipeline
+2026-08-03 18:20:59 - preprocessing - ERROR - Preprocessing failed: 'charmap' codec can't decode byte 0x8f in position 2399: character maps to <undefined>
+2026-08-03 18:21:40 - preprocessing - INFO - Running preprocessing pipeline
+2026-10-14 21:23:22 - preprocessing - INFO - Running preprocessing pipeline

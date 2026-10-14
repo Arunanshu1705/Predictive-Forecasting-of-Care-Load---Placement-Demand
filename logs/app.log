@@ -1,0 +1,992 @@
+2026-08-03 18:21:40 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-08-03 18:21:40 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-08-03 18:21:40 - src.preprocessing - INFO - Successfully loaded 731 rows
+2026-08-03 18:21:40 - src.preprocessing - INFO - Converting date column: Date
+2026-08-03 18:21:40 - src.preprocessing - INFO - Date conversion completed successfully
+2026-08-03 18:21:40 - src.preprocessing - INFO - No duplicate rows found
+2026-08-03 18:21:40 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-08-03 18:21:40 - src.preprocessing - INFO - Resetting DataFrame index
+2026-08-03 18:21:40 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-08-03 18:21:40 - src.preprocessing - INFO - Added 0 missing dates to timeline
+2026-08-03 18:21:40 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-08-03 18:21:40 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-08-03 18:21:40 - src.preprocessing - INFO - Successfully saved 731 rows
+2026-08-03 18:21:40 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-08-03 18:21:51 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-08-03 18:21:51 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-08-03 18:21:51 - src.preprocessing - INFO - Successfully loaded 731 rows
+2026-08-03 18:21:51 - src.preprocessing - INFO - Converting date column: Date
+2026-08-03 18:21:51 - src.preprocessing - INFO - Date conversion completed successfully
+2026-08-03 18:21:51 - src.preprocessing - INFO - No duplicate rows found
+2026-08-03 18:21:51 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-08-03 18:21:51 - src.preprocessing - INFO - Resetting DataFrame index
+2026-08-03 18:21:51 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-08-03 18:21:51 - src.preprocessing - INFO - Added 0 missing dates to timeline
+2026-08-03 18:21:51 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-08-03 18:21:51 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-08-03 18:21:51 - src.preprocessing - INFO - Successfully saved 731 rows
+2026-08-03 18:21:51 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-08-03 18:21:51 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-08-03 18:21:51 - src.validation - INFO - Loaded 731 rows for validation
+2026-08-03 18:21:51 - src.validation - INFO - Running all validation checks
+2026-08-03 18:21:51 - src.validation - INFO - Checking for missing values
+2026-08-03 18:21:51 - src.validation - INFO - No missing values found
+2026-08-03 18:21:51 - src.validation - INFO - Checking for duplicate dates
+2026-08-03 18:21:51 - src.validation - INFO - No duplicate dates found
+2026-08-03 18:21:51 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-08-03 18:21:51 - src.validation - INFO - All Transfers <= CBP Custody
+2026-08-03 18:21:51 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-08-03 18:21:51 - src.validation - INFO - All Discharges <= HHS Care
+2026-08-03 18:21:51 - src.validation - INFO - Checking for negative values
+2026-08-03 18:21:51 - src.validation - INFO - No negative values found
+2026-08-03 18:21:51 - src.validation - INFO - Checking for reporting anomalies
+2026-08-03 18:22:26 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-08-03 18:22:26 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-08-03 18:22:26 - src.preprocessing - INFO - Successfully loaded 731 rows
+2026-08-03 18:22:26 - src.preprocessing - INFO - Converting date column: Date
+2026-08-03 18:22:26 - src.preprocessing - INFO - Date conversion completed successfully
+2026-08-03 18:22:26 - src.preprocessing - INFO - No duplicate rows found
+2026-08-03 18:22:26 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-08-03 18:22:26 - src.preprocessing - INFO - Resetting DataFrame index
+2026-08-03 18:22:26 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-08-03 18:22:26 - src.preprocessing - INFO - Added 0 missing dates to timeline
+2026-08-03 18:22:26 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-08-03 18:22:26 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-08-03 18:22:26 - src.preprocessing - INFO - Successfully saved 731 rows
+2026-08-03 18:22:26 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-08-03 18:22:26 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-08-03 18:22:26 - src.validation - INFO - Loaded 731 rows for validation
+2026-08-03 18:22:26 - src.validation - INFO - Running all validation checks
+2026-08-03 18:22:26 - src.validation - INFO - Checking for missing values
+2026-08-03 18:22:26 - src.validation - INFO - No missing values found
+2026-08-03 18:22:26 - src.validation - INFO - Checking for duplicate dates
+2026-08-03 18:22:26 - src.validation - INFO - No duplicate dates found
+2026-08-03 18:22:26 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-08-03 18:22:26 - src.validation - INFO - All Transfers <= CBP Custody
+2026-08-03 18:22:26 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-08-03 18:22:26 - src.validation - INFO - All Discharges <= HHS Care
+2026-08-03 18:22:26 - src.validation - INFO - Checking for negative values
+2026-08-03 18:22:26 - src.validation - INFO - No negative values found
+2026-08-03 18:22:26 - src.validation - INFO - Checking for reporting anomalies
+2026-08-03 18:22:26 - src.validation - WARNING - Found reporting anomalies
+2026-08-03 18:22:26 - src.validation - INFO - Validation completed with status: PASS
+2026-08-03 18:22:26 - src.validation - INFO - Saving validation report to: reports/validation_report.json
+2026-08-03 18:22:26 - src.validation - INFO - Validation report saved successfully
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Loaded 731 rows for feature engineering
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating all features
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating rolling window features
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Creating temporal features
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 52
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Successfully saved 731 rows with 52 columns
+2026-08-03 18:22:26 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-08-03 18:22:26 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-08-03 18:22:26 - src.kpi - INFO - Loaded 731 rows for KPI calculation
+2026-08-03 18:22:26 - src.kpi - INFO - Calculating all KPIs
+2026-08-03 18:22:26 - src.kpi - INFO - Calculated 16 KPIs
+2026-08-03 18:22:26 - src.kpi - INFO - Saving KPIs to: reports/kpis.json
+2026-08-03 18:22:26 - src.kpi - INFO - KPIs saved successfully
+2026-08-03 18:22:26 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-08-03 18:22:26 - backend.analytics - INFO - Loaded 731 rows for analytics
+2026-08-03 18:22:26 - backend.analytics - INFO - Running all healthcare analytics
+2026-08-03 18:22:26 - backend.analytics - INFO - Detecting capacity stress periods
+2026-08-03 18:22:26 - backend.analytics - INFO - Capacity stress detection completed: HIGH_STRESS
+2026-08-03 18:22:26 - backend.analytics - INFO - Analyzing backlog
+2026-08-03 18:22:26 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-08-03 18:22:26 - backend.analytics - INFO - Analyzing pressure windows
+2026-08-03 18:22:26 - backend.analytics - INFO - Pressure windows analysis completed
+2026-08-03 18:22:26 - backend.analytics - INFO - Analyzing net intake trend
+2026-08-03 18:22:26 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-08-03 18:22:26 - backend.analytics - INFO - Analyzing growth trend
+2026-08-03 18:22:26 - backend.analytics - INFO - Growth trend analysis completed: RAPID_GROWTH
+2026-08-03 18:22:26 - backend.analytics - INFO - Detecting high load periods
+2026-08-03 18:22:26 - backend.analytics - INFO - High load period detection completed
+2026-08-03 18:22:26 - backend.analytics - INFO - Analyzing moving average signals
+2026-08-03 18:22:26 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-08-03 18:22:26 - backend.analytics - INFO - Analyzing variance patterns
+2026-08-03 18:22:26 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-08-03 18:22:26 - backend.analytics - INFO - All healthcare analytics completed
+2026-08-03 18:22:26 - src.report_generator - INFO - Generating PDF report
+2026-08-03 18:22:26 - src.report_generator - INFO - Setting up PDF document: reports/capacity_analytics_report_20260803_182226.pdf
+2026-08-03 18:22:26 - src.report_generator - INFO - PDF report generated successfully
+2026-08-03 18:41:57 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-08-03 18:41:57 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-08-03 18:41:57 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-08-03 18:41:57 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-08-03 18:41:57 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-08-03 18:41:57 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-08-03 18:41:57 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-08-03 18:41:57 - src.preprocessing - INFO - Converting date column: Date
+2026-08-03 18:41:57 - src.preprocessing - WARNING - Failed to convert 450 dates
+2026-08-03 18:41:57 - src.preprocessing - INFO - Date conversion completed successfully
+2026-08-03 18:41:57 - src.preprocessing - INFO - Removing 449 duplicate rows
+2026-08-03 18:41:57 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-08-03 18:41:57 - src.preprocessing - INFO - Resetting DataFrame index
+2026-08-03 18:41:57 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-08-03 18:41:57 - src.preprocessing - INFO - Added 354 missing dates to timeline
+2026-08-03 18:41:57 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-08-03 18:41:57 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-08-03 18:41:57 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-08-03 18:41:57 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-08-03 18:43:03 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-08-03 18:43:03 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-08-03 18:43:03 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-08-03 18:43:03 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-08-03 18:43:03 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-08-03 18:43:03 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-08-03 18:43:03 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-08-03 18:43:03 - src.preprocessing - INFO - Converting date column: Date
+2026-08-03 18:43:03 - src.preprocessing - WARNING - Failed to convert 450 dates with primary format, trying alternatives
+2026-08-03 18:43:03 - src.preprocessing - WARNING - Still failed to convert 450 dates, trying pandas flexible parsing
+2026-08-03 18:43:03 - src.preprocessing - WARNING - Failed to convert 450 dates even with alternative formats
+2026-08-03 18:43:03 - src.preprocessing - INFO - Date conversion completed successfully
+2026-08-03 18:43:03 - src.preprocessing - INFO - Removing 449 duplicate rows
+2026-08-03 18:43:03 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-08-03 18:43:03 - src.preprocessing - INFO - Resetting DataFrame index
+2026-08-03 18:43:03 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-08-03 18:43:03 - src.preprocessing - INFO - Added 354 missing dates to timeline
+2026-08-03 18:43:03 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-08-03 18:43:03 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-08-03 18:43:03 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-08-03 18:43:03 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-08-03 18:44:36 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-08-03 18:44:36 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-08-03 18:44:36 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-08-03 18:44:36 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-08-03 18:44:36 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-08-03 18:44:36 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-08-03 18:44:36 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-08-03 18:44:36 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-08-03 18:44:36 - src.preprocessing - INFO - Converting date column: Date
+2026-08-03 18:44:36 - src.preprocessing - INFO - Date conversion completed successfully
+2026-08-03 18:44:36 - src.preprocessing - INFO - No duplicate rows found
+2026-08-03 18:44:36 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-08-03 18:44:36 - src.preprocessing - INFO - Resetting DataFrame index
+2026-08-03 18:44:36 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-08-03 18:44:36 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-08-03 18:44:36 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-08-03 18:44:36 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-08-03 18:44:36 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-08-03 18:44:36 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-09-14 19:16:40 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-09-14 19:16:40 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-09-14 19:16:40 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-09-14 19:16:40 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-09-14 19:16:40 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-09-14 19:16:40 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-09-14 19:16:40 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-09-14 19:16:40 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-09-14 19:16:40 - src.preprocessing - INFO - Converting date column: Date
+2026-09-14 19:16:40 - src.preprocessing - INFO - Date conversion completed successfully
+2026-09-14 19:16:40 - src.preprocessing - INFO - No duplicate rows found
+2026-09-14 19:16:40 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-09-14 19:16:40 - src.preprocessing - INFO - Resetting DataFrame index
+2026-09-14 19:16:40 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-09-14 19:16:40 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-09-14 19:16:40 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-09-14 19:16:40 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-09-14 19:16:40 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-09-14 19:16:40 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-09-14 19:16:40 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-09-14 19:16:40 - src.validation - INFO - Loaded 1075 rows for validation
+2026-09-14 19:16:40 - src.validation - INFO - Running all validation checks
+2026-09-14 19:16:40 - src.validation - INFO - Checking for missing values
+2026-09-14 19:16:40 - src.validation - INFO - No missing values found
+2026-09-14 19:16:40 - src.validation - INFO - Checking for duplicate dates
+2026-09-14 19:16:40 - src.validation - INFO - No duplicate dates found
+2026-09-14 19:16:40 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-09-14 19:16:40 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-09-14 19:16:40 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-09-14 19:16:40 - src.validation - INFO - All Discharges <= HHS Care
+2026-09-14 19:16:40 - src.validation - INFO - Checking for negative values
+2026-09-14 19:16:40 - src.validation - INFO - No negative values found
+2026-09-14 19:16:40 - src.validation - INFO - Checking for reporting anomalies
+2026-09-14 19:16:40 - src.validation - WARNING - Found reporting anomalies
+2026-09-14 19:16:40 - src.validation - INFO - Validation completed with status: FAIL
+2026-09-14 19:16:40 - src.validation - INFO - Saving validation report to: reports/validation_report.json
+2026-09-14 19:16:40 - src.validation - INFO - Validation report saved successfully
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating all features
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating rolling window features
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Creating temporal features
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-09-14 19:16:40 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-09-14 19:16:40 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-09-14 19:16:40 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-09-14 19:16:40 - src.kpi - INFO - Calculating all KPIs
+2026-09-14 19:16:40 - src.kpi - INFO - Calculated 16 KPIs
+2026-09-14 19:16:40 - src.kpi - INFO - Saving KPIs to: reports/kpis.json
+2026-09-14 19:16:40 - src.kpi - INFO - KPIs saved successfully
+2026-09-14 19:16:40 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-09-14 19:16:41 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-09-14 19:16:41 - backend.analytics - INFO - Running all healthcare analytics
+2026-09-14 19:16:41 - backend.analytics - INFO - Detecting capacity stress periods
+2026-09-14 19:16:41 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-09-14 19:16:41 - backend.analytics - INFO - Analyzing backlog
+2026-09-14 19:16:41 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-09-14 19:16:41 - backend.analytics - INFO - Analyzing pressure windows
+2026-09-14 19:16:41 - backend.analytics - INFO - Pressure windows analysis completed
+2026-09-14 19:16:41 - backend.analytics - INFO - Analyzing net intake trend
+2026-09-14 19:16:41 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-09-14 19:16:41 - backend.analytics - INFO - Analyzing growth trend
+2026-09-14 19:16:41 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-09-14 19:16:41 - backend.analytics - INFO - Detecting high load periods
+2026-09-14 19:16:41 - backend.analytics - INFO - High load period detection completed
+2026-09-14 19:16:41 - backend.analytics - INFO - Analyzing moving average signals
+2026-09-14 19:16:41 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-09-14 19:16:41 - backend.analytics - INFO - Analyzing variance patterns
+2026-09-14 19:16:41 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-09-14 19:16:41 - backend.analytics - INFO - All healthcare analytics completed
+2026-09-14 19:16:41 - src.report_generator - INFO - Generating PDF report
+2026-09-14 19:16:41 - src.report_generator - INFO - Setting up PDF document: reports/capacity_analytics_report_20260914_191641.pdf
+2026-09-14 19:16:41 - src.report_generator - INFO - PDF report generated successfully
+2026-09-14 19:22:51 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-09-14 19:22:51 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-09-14 19:22:51 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-09-14 19:22:51 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-09-14 19:22:51 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-09-14 19:22:51 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-09-14 19:22:51 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-09-14 19:22:51 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-09-14 19:22:51 - src.preprocessing - INFO - Converting date column: Date
+2026-09-14 19:22:51 - src.preprocessing - INFO - Date conversion completed successfully
+2026-09-14 19:22:51 - src.preprocessing - INFO - No duplicate rows found
+2026-09-14 19:22:51 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-09-14 19:22:51 - src.preprocessing - INFO - Resetting DataFrame index
+2026-09-14 19:22:51 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-09-14 19:22:52 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-09-14 19:22:52 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-09-14 19:22:52 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-09-14 19:22:52 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-09-14 19:22:52 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-09-14 19:22:52 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-09-14 19:22:52 - src.validation - INFO - Loaded 1075 rows for validation
+2026-09-14 19:22:52 - src.validation - INFO - Running all validation checks
+2026-09-14 19:22:52 - src.validation - INFO - Checking for missing values
+2026-09-14 19:22:52 - src.validation - INFO - No missing values found
+2026-09-14 19:22:52 - src.validation - INFO - Checking for duplicate dates
+2026-09-14 19:22:52 - src.validation - INFO - No duplicate dates found
+2026-09-14 19:22:52 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-09-14 19:22:52 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-09-14 19:22:52 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-09-14 19:22:52 - src.validation - INFO - All Discharges <= HHS Care
+2026-09-14 19:22:52 - src.validation - INFO - Checking for negative values
+2026-09-14 19:22:52 - src.validation - INFO - No negative values found
+2026-09-14 19:22:52 - src.validation - INFO - Checking for reporting anomalies
+2026-09-14 19:22:52 - src.validation - WARNING - Found reporting anomalies
+2026-09-14 19:22:52 - src.validation - INFO - Validation completed with status: FAIL
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating all features
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating rolling window features
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Creating temporal features
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-09-14 19:22:52 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-09-14 19:22:52 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-09-14 19:22:52 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-09-14 19:22:52 - src.kpi - INFO - Calculating all KPIs
+2026-09-14 19:22:52 - src.kpi - INFO - Calculated 16 KPIs
+2026-09-14 19:22:52 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-09-14 19:22:52 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-09-14 19:22:52 - backend.analytics - INFO - Running all healthcare analytics
+2026-09-14 19:22:52 - backend.analytics - INFO - Detecting capacity stress periods
+2026-09-14 19:22:52 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-09-14 19:22:52 - backend.analytics - INFO - Analyzing backlog
+2026-09-14 19:22:52 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-09-14 19:22:52 - backend.analytics - INFO - Analyzing pressure windows
+2026-09-14 19:22:52 - backend.analytics - INFO - Pressure windows analysis completed
+2026-09-14 19:22:52 - backend.analytics - INFO - Analyzing net intake trend
+2026-09-14 19:22:52 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-09-14 19:22:52 - backend.analytics - INFO - Analyzing growth trend
+2026-09-14 19:22:52 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-09-14 19:22:52 - backend.analytics - INFO - Detecting high load periods
+2026-09-14 19:22:52 - backend.analytics - INFO - High load period detection completed
+2026-09-14 19:22:52 - backend.analytics - INFO - Analyzing moving average signals
+2026-09-14 19:22:52 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-09-14 19:22:52 - backend.analytics - INFO - Analyzing variance patterns
+2026-09-14 19:22:52 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-09-14 19:22:52 - backend.analytics - INFO - All healthcare analytics completed
+2026-09-14 19:41:30 - src.report_generator - INFO - Generating simplified PDF report
+2026-09-14 19:41:30 - src.report_generator - INFO - Setting up PDF document: reports/capacity_analytics_report_20260914_194130.pdf
+2026-09-14 19:41:31 - src.report_generator - INFO - Simplified PDF report generated successfully
+2026-09-14 19:46:50 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-09-14 19:46:50 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-09-14 19:46:50 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-09-14 19:46:50 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-09-14 19:46:50 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-09-14 19:46:50 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-09-14 19:46:50 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-09-14 19:46:50 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-09-14 19:46:50 - src.preprocessing - INFO - Converting date column: Date
+2026-09-14 19:46:51 - src.preprocessing - INFO - Date conversion completed successfully
+2026-09-14 19:46:51 - src.preprocessing - INFO - No duplicate rows found
+2026-09-14 19:46:51 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-09-14 19:46:51 - src.preprocessing - INFO - Resetting DataFrame index
+2026-09-14 19:46:51 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-09-14 19:46:51 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-09-14 19:46:51 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-09-14 19:46:51 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-09-14 19:46:51 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-09-14 19:46:51 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-09-14 19:46:51 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-09-14 19:46:51 - src.validation - INFO - Loaded 1075 rows for validation
+2026-09-14 19:46:51 - src.validation - INFO - Running all validation checks
+2026-09-14 19:46:51 - src.validation - INFO - Checking for missing values
+2026-09-14 19:46:51 - src.validation - INFO - No missing values found
+2026-09-14 19:46:51 - src.validation - INFO - Checking for duplicate dates
+2026-09-14 19:46:51 - src.validation - INFO - No duplicate dates found
+2026-09-14 19:46:51 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-09-14 19:46:51 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-09-14 19:46:51 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-09-14 19:46:51 - src.validation - INFO - All Discharges <= HHS Care
+2026-09-14 19:46:51 - src.validation - INFO - Checking for negative values
+2026-09-14 19:46:51 - src.validation - INFO - No negative values found
+2026-09-14 19:46:51 - src.validation - INFO - Checking for reporting anomalies
+2026-09-14 19:46:51 - src.validation - WARNING - Found reporting anomalies
+2026-09-14 19:46:51 - src.validation - INFO - Validation completed with status: FAIL
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating all features
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating rolling window features
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Creating temporal features
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-09-14 19:46:51 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-09-14 19:46:51 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-09-14 19:46:51 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-09-14 19:46:51 - src.kpi - INFO - Calculating all KPIs
+2026-09-14 19:46:51 - src.kpi - INFO - Calculated 16 KPIs
+2026-09-14 19:46:51 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-09-14 19:46:51 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-09-14 19:46:51 - backend.analytics - INFO - Running all healthcare analytics
+2026-09-14 19:46:51 - backend.analytics - INFO - Detecting capacity stress periods
+2026-09-14 19:46:51 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-09-14 19:46:51 - backend.analytics - INFO - Analyzing backlog
+2026-09-14 19:46:51 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-09-14 19:46:51 - backend.analytics - INFO - Analyzing pressure windows
+2026-09-14 19:46:51 - backend.analytics - INFO - Pressure windows analysis completed
+2026-09-14 19:46:51 - backend.analytics - INFO - Analyzing net intake trend
+2026-09-14 19:46:51 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-09-14 19:46:51 - backend.analytics - INFO - Analyzing growth trend
+2026-09-14 19:46:51 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-09-14 19:46:51 - backend.analytics - INFO - Detecting high load periods
+2026-09-14 19:46:52 - backend.analytics - INFO - High load period detection completed
+2026-09-14 19:46:52 - backend.analytics - INFO - Analyzing moving average signals
+2026-09-14 19:46:52 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-09-14 19:46:52 - backend.analytics - INFO - Analyzing variance patterns
+2026-09-14 19:46:52 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-09-14 19:46:52 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:23:20 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:23:20 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:23:20 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:23:20 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:23:20 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:23:20 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:23:20 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:23:20 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:23:20 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:23:20 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:23:20 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:23:20 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:23:20 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:23:20 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:23:20 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:23:20 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:23:20 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:23:20 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:23:20 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:23:20 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:23:20 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:23:20 - src.validation - INFO - Running all validation checks
+2026-10-14 21:23:20 - src.validation - INFO - Checking for missing values
+2026-10-14 21:23:20 - src.validation - INFO - No missing values found
+2026-10-14 21:23:20 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:23:20 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:23:20 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:23:20 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:23:20 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:23:20 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:23:20 - src.validation - INFO - Checking for negative values
+2026-10-14 21:23:20 - src.validation - INFO - No negative values found
+2026-10-14 21:23:20 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:23:20 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:23:20 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:23:20 - src.validation - INFO - Saving validation report to: reports/validation_report.json
+2026-10-14 21:23:20 - src.validation - INFO - Validation report saved successfully
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating all features
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating rolling window features
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Creating temporal features
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-10-14 21:23:20 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-10-14 21:23:20 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-10-14 21:23:20 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-10-14 21:23:20 - src.kpi - INFO - Calculating all KPIs
+2026-10-14 21:23:20 - src.kpi - INFO - Calculated 16 KPIs
+2026-10-14 21:23:20 - src.kpi - INFO - Saving KPIs to: reports/kpis.json
+2026-10-14 21:23:20 - src.kpi - INFO - KPIs saved successfully
+2026-10-14 21:23:20 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:23:20 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:23:20 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:23:20 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:23:20 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:23:20 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:23:20 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:23:20 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:23:20 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:23:20 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:23:20 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:23:20 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:23:20 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:23:20 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:23:20 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:23:20 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:23:20 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:23:20 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:23:20 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-10-14 21:23:20 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:23:20 - src.report_generator - INFO - Generating PDF report
+2026-10-14 21:23:20 - src.report_generator - INFO - Setting up PDF document: reports/capacity_analytics_report_20261014_212320.pdf
+2026-10-14 21:23:20 - src.report_generator - INFO - PDF report generated successfully
+2026-10-14 21:23:22 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:23:22 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:23:22 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:23:22 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:23:22 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:23:22 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:23:22 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:23:22 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:23:22 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:23:22 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:23:22 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:23:22 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:23:22 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:23:22 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:23:22 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:23:22 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:23:22 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:23:22 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:23:22 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:23:23 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:23:23 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:23:23 - src.validation - INFO - Running all validation checks
+2026-10-14 21:23:23 - src.validation - INFO - Checking for missing values
+2026-10-14 21:23:23 - src.validation - INFO - No missing values found
+2026-10-14 21:23:23 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:23:23 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:23:23 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:23:23 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:23:23 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:23:23 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:23:23 - src.validation - INFO - Checking for negative values
+2026-10-14 21:23:23 - src.validation - INFO - No negative values found
+2026-10-14 21:23:23 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:23:23 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:23:23 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:23:23 - src.validation - INFO - Saving validation report to: reports/validation_report.json
+2026-10-14 21:23:23 - src.validation - INFO - Validation report saved successfully
+2026-10-14 21:23:24 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:23:24 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:23:24 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:23:24 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:23:24 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:23:24 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:23:24 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:23:24 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:23:24 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:23:24 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:23:24 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:23:24 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:23:24 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:23:24 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:23:24 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:23:24 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:23:24 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:23:24 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:23:24 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-10-14 21:23:24 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:23:52 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:23:52 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:23:52 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:23:52 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:23:52 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:23:52 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:23:52 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:23:52 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:23:52 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:23:52 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:23:52 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:23:52 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:23:52 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:23:52 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:23:52 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:23:52 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:23:52 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:23:52 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:23:52 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:23:52 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:23:52 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:23:52 - src.validation - INFO - Running all validation checks
+2026-10-14 21:23:52 - src.validation - INFO - Checking for missing values
+2026-10-14 21:23:52 - src.validation - INFO - No missing values found
+2026-10-14 21:23:52 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:23:52 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:23:52 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:23:52 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:23:52 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:23:52 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:23:52 - src.validation - INFO - Checking for negative values
+2026-10-14 21:23:52 - src.validation - INFO - No negative values found
+2026-10-14 21:23:52 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:23:52 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:23:52 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating all features
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating rolling window features
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Creating temporal features
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-10-14 21:23:52 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-10-14 21:23:52 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-10-14 21:23:52 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-10-14 21:23:52 - src.kpi - INFO - Calculating all KPIs
+2026-10-14 21:23:52 - src.kpi - INFO - Calculated 16 KPIs
+2026-10-14 21:23:52 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:23:52 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:23:52 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:23:52 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:23:52 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:23:52 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:23:52 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:23:52 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:23:52 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:23:52 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:23:52 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:23:52 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:23:52 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:23:52 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:23:52 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:23:52 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:23:52 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:23:52 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:23:52 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-10-14 21:23:52 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:24:04 - backend.api - INFO - Starting FastAPI backend
+2026-10-14 21:24:04 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:24:04 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:24:04 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:24:04 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:24:04 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:24:04 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:24:04 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:24:04 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:24:04 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:24:04 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:24:04 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:24:04 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:24:04 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:24:04 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:24:04 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:24:04 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:24:04 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:24:04 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:24:04 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:24:04 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:24:04 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:24:04 - src.validation - INFO - Running all validation checks
+2026-10-14 21:24:04 - src.validation - INFO - Checking for missing values
+2026-10-14 21:24:04 - src.validation - INFO - No missing values found
+2026-10-14 21:24:04 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:24:04 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:24:04 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:24:04 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:24:04 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:24:04 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:24:04 - src.validation - INFO - Checking for negative values
+2026-10-14 21:24:04 - src.validation - INFO - No negative values found
+2026-10-14 21:24:04 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:24:04 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:24:04 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating all features
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating rolling window features
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Creating temporal features
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-10-14 21:24:04 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-10-14 21:24:04 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-10-14 21:24:04 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-10-14 21:24:04 - src.kpi - INFO - Calculating all KPIs
+2026-10-14 21:24:04 - src.kpi - INFO - Calculated 16 KPIs
+2026-10-14 21:24:04 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:24:04 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:24:04 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:24:04 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:24:04 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:24:04 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:24:04 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:24:04 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:24:04 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:24:04 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:24:04 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:24:04 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:24:04 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:24:04 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:24:04 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:24:05 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:24:05 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:24:05 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:24:05 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-10-14 21:24:05 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:24:05 - backend.api - INFO - Backend initialized successfully
+2026-10-14 21:24:15 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:24:15 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:24:15 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:24:15 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:24:15 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:24:15 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:24:15 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:24:15 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:24:15 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:24:15 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:24:15 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:24:15 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:24:15 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:24:15 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:24:15 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:24:15 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:24:15 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:24:15 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:24:15 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:24:15 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:24:15 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:24:15 - src.validation - INFO - Running all validation checks
+2026-10-14 21:24:15 - src.validation - INFO - Checking for missing values
+2026-10-14 21:24:15 - src.validation - INFO - No missing values found
+2026-10-14 21:24:15 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:24:15 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:24:15 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:24:15 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:24:15 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:24:15 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:24:15 - src.validation - INFO - Checking for negative values
+2026-10-14 21:24:15 - src.validation - INFO - No negative values found
+2026-10-14 21:24:15 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:24:15 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:24:15 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating all features
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating rolling window features
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Creating temporal features
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-10-14 21:24:15 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-10-14 21:24:15 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-10-14 21:24:15 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-10-14 21:24:15 - src.kpi - INFO - Calculating all KPIs
+2026-10-14 21:24:15 - src.kpi - INFO - Calculated 16 KPIs
+2026-10-14 21:24:15 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:24:15 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:24:15 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:24:15 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:24:15 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:24:15 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:24:15 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:24:15 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:24:15 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:24:15 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:24:15 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:24:15 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:24:15 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:24:15 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:24:15 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:24:15 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:24:15 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:24:15 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:24:15 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-10-14 21:24:15 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:35:57 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:35:57 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:35:57 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:35:57 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:35:57 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:35:57 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:35:57 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:35:57 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:35:57 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:35:57 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:35:57 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:35:57 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:35:57 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:35:57 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:35:57 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:35:57 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:35:57 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:35:57 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:35:57 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:35:57 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:35:57 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:35:57 - src.validation - INFO - Running all validation checks
+2026-10-14 21:35:57 - src.validation - INFO - Checking for missing values
+2026-10-14 21:35:57 - src.validation - INFO - No missing values found
+2026-10-14 21:35:57 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:35:57 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:35:57 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:35:57 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:35:57 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:35:57 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:35:57 - src.validation - INFO - Checking for negative values
+2026-10-14 21:35:57 - src.validation - INFO - No negative values found
+2026-10-14 21:35:57 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:35:57 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:35:57 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating all features
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating rolling window features
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Creating temporal features
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-10-14 21:35:57 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-10-14 21:35:57 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-10-14 21:35:57 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-10-14 21:35:57 - src.kpi - INFO - Calculating all KPIs
+2026-10-14 21:35:57 - src.kpi - INFO - Calculated 16 KPIs
+2026-10-14 21:35:57 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:35:57 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:35:57 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:35:57 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:35:57 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:35:57 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:35:57 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:35:57 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:35:57 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:35:57 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:35:57 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:35:57 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:35:57 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:35:57 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:35:57 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:35:57 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:35:57 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:35:57 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:35:57 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-10-14 21:35:57 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:36:35 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:36:35 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:36:35 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:36:35 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:36:35 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:36:35 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:36:35 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:36:35 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:36:35 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:36:35 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:36:35 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:36:35 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:36:35 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:36:35 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:36:35 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:36:35 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:36:35 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:36:35 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:36:35 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:36:35 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:36:35 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:36:35 - src.validation - INFO - Running all validation checks
+2026-10-14 21:36:35 - src.validation - INFO - Checking for missing values
+2026-10-14 21:36:35 - src.validation - INFO - No missing values found
+2026-10-14 21:36:35 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:36:35 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:36:35 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:36:35 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:36:35 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:36:35 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:36:35 - src.validation - INFO - Checking for negative values
+2026-10-14 21:36:35 - src.validation - INFO - No negative values found
+2026-10-14 21:36:35 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:36:35 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:36:35 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating all features
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating rolling window features
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Creating temporal features
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-10-14 21:36:35 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-10-14 21:36:35 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-10-14 21:36:35 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-10-14 21:36:35 - src.kpi - INFO - Calculating all KPIs
+2026-10-14 21:36:35 - src.kpi - INFO - Calculated 16 KPIs
+2026-10-14 21:36:35 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:36:35 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:36:35 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:36:35 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:36:35 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:36:35 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:36:35 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:36:35 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:36:35 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:36:35 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:36:35 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:36:35 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:36:35 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:36:35 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:36:35 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:36:35 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:36:35 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:36:35 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:36:35 - backend.analytics - INFO - Variance analysis completed: MODERATE
+2026-10-14 21:36:35 - backend.analytics - INFO - All healthcare analytics completed
+2026-10-14 21:37:20 - src.preprocessing - INFO - Starting preprocessing pipeline
+2026-10-14 21:37:20 - src.preprocessing - INFO - Loading data from: data/raw/HHS_Unaccompanied_Alien_Children_Program.csv
+2026-10-14 21:37:20 - src.preprocessing - INFO - Successfully loaded 1170 rows
+2026-10-14 21:37:20 - src.preprocessing - INFO - Dropped 450 completely empty rows
+2026-10-14 21:37:20 - src.preprocessing - INFO - Cleaning numeric columns (removing commas, etc.)
+2026-10-14 21:37:20 - src.preprocessing - INFO - Numeric columns cleaned successfully
+2026-10-14 21:37:20 - src.preprocessing - INFO - Renaming columns to match expected format
+2026-10-14 21:37:20 - src.preprocessing - INFO - Renamed columns: ['Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+2026-10-14 21:37:20 - src.preprocessing - INFO - Converting date column: Date
+2026-10-14 21:37:20 - src.preprocessing - INFO - Date conversion completed successfully
+2026-10-14 21:37:20 - src.preprocessing - INFO - No duplicate rows found
+2026-10-14 21:37:20 - src.preprocessing - INFO - Sorting data by Date (ascending=True)
+2026-10-14 21:37:20 - src.preprocessing - INFO - Resetting DataFrame index
+2026-10-14 21:37:20 - src.preprocessing - INFO - Creating continuous daily timeline
+2026-10-14 21:37:20 - src.preprocessing - INFO - Added 355 missing dates to timeline
+2026-10-14 21:37:20 - src.preprocessing - INFO - Forward filling missing numeric values
+2026-10-14 21:37:20 - src.preprocessing - INFO - Saving processed data to: data/processed/processed_data.csv
+2026-10-14 21:37:20 - src.preprocessing - INFO - Successfully saved 1075 rows
+2026-10-14 21:37:20 - src.preprocessing - INFO - Preprocessing pipeline completed successfully
+2026-10-14 21:37:20 - src.validation - INFO - Loading data for validation: data/processed/processed_data.csv
+2026-10-14 21:37:20 - src.validation - INFO - Loaded 1075 rows for validation
+2026-10-14 21:37:20 - src.validation - INFO - Running all validation checks
+2026-10-14 21:37:20 - src.validation - INFO - Checking for missing values
+2026-10-14 21:37:20 - src.validation - INFO - No missing values found
+2026-10-14 21:37:20 - src.validation - INFO - Checking for duplicate dates
+2026-10-14 21:37:20 - src.validation - INFO - No duplicate dates found
+2026-10-14 21:37:20 - src.validation - INFO - Checking Transfers <= CBP Custody
+2026-10-14 21:37:20 - src.validation - ERROR - Found 138 violations of Transfers <= CBP Custody
+2026-10-14 21:37:20 - src.validation - INFO - Checking Discharges <= HHS Care
+2026-10-14 21:37:20 - src.validation - INFO - All Discharges <= HHS Care
+2026-10-14 21:37:20 - src.validation - INFO - Checking for negative values
+2026-10-14 21:37:20 - src.validation - INFO - No negative values found
+2026-10-14 21:37:20 - src.validation - INFO - Checking for reporting anomalies
+2026-10-14 21:37:20 - src.validation - WARNING - Found reporting anomalies
+2026-10-14 21:37:20 - src.validation - INFO - Validation completed with status: FAIL
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Starting feature engineering pipeline
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Loading data for feature engineering: data/processed/processed_data.csv
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Loaded 1075 rows for feature engineering
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating all features
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating Total System Load feature
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating Net Daily Intake feature
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating Daily Growth Rate feature
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating Backlog Indicator feature
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating Discharge Offset Ratio feature
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating rolling window features
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Creating temporal features
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Feature engineering completed. Total columns: 53
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Saving featured data to: data/processed/featured_data.csv
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Successfully saved 1075 rows with 53 columns
+2026-10-14 21:37:20 - src.feature_engineering - INFO - Feature engineering pipeline completed successfully
+2026-10-14 21:37:20 - src.kpi - INFO - Loading data for KPI calculation: data/processed/featured_data.csv
+2026-10-14 21:37:20 - src.kpi - INFO - Loaded 1075 rows for KPI calculation
+2026-10-14 21:37:20 - src.kpi - INFO - Calculating all KPIs
+2026-10-14 21:37:20 - src.kpi - INFO - Calculated 16 KPIs
+2026-10-14 21:37:20 - backend.analytics - INFO - Loading data for analytics: data/processed/featured_data.csv
+2026-10-14 21:37:20 - backend.analytics - INFO - Loaded 1075 rows for analytics
+2026-10-14 21:37:20 - backend.analytics - INFO - Running all healthcare analytics
+2026-10-14 21:37:20 - backend.analytics - INFO - Detecting capacity stress periods
+2026-10-14 21:37:20 - backend.analytics - INFO - Capacity stress detection completed: MODERATE_STRESS
+2026-10-14 21:37:20 - backend.analytics - INFO - Analyzing backlog
+2026-10-14 21:37:20 - backend.analytics - INFO - Backlog analysis completed: INCREASING
+2026-10-14 21:37:20 - backend.analytics - INFO - Analyzing pressure windows
+2026-10-14 21:37:20 - backend.analytics - INFO - Pressure windows analysis completed
+2026-10-14 21:37:20 - backend.analytics - INFO - Analyzing net intake trend
+2026-10-14 21:37:20 - backend.analytics - INFO - Net intake trend analysis completed: INCREASING
+2026-10-14 21:37:20 - backend.analytics - INFO - Analyzing growth trend
+2026-10-14 21:37:20 - backend.analytics - INFO - Growth trend analysis completed: DECLINE
+2026-10-14 21:37:20 - backend.analytics - INFO - Detecting high load periods
+2026-10-14 21:37:20 - backend.analytics - INFO - High load period detection completed
+2026-10-14 21:37:20 - backend.analytics - INFO - Analyzing moving average signals
+2026-10-14 21:37:20 - backend.analytics - INFO - Moving average analysis completed: BULLISH
+2026-10-14 21:37:20 - backend.analytics - INFO - Analyzing variance patterns
+2026-10-14 21:37:20 - backend.analytics - INFO - Variance analysis completed: MODERATE

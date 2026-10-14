@@ -1,0 +1,137 @@
+# System Capacity & Care Load Analytics Configuration
+
+# Data Configuration
+data:
+  raw_path: "data/raw/HHS_Unaccompanied_Alien_Children_Program.csv"
+  processed_path: "data/processed/processed_data.csv"
+  date_column: "Date"
+  
+  # Expected columns in the dataset
+  columns:
+    - "Date"
+    - "Children apprehended and placed in CBP custody*"
+    - "Children in CBP custody"
+    - "Children transferred out of CBP custody"
+    - "Children in HHS Care"
+    - "Children discharged from HHS Care"
+
+# Preprocessing Configuration
+preprocessing:
+  date_format: "%B %d, %Y"
+  sort_ascending: true
+  reset_index: true
+  fill_missing_dates: true
+  remove_duplicates: true
+
+# Validation Configuration
+validation:
+  check_missing_values: true
+  check_duplicate_dates: true
+  check_transfers_le_cbp: true
+  check_discharges_le_hhs: true
+  check_negative_values: true
+  check_reporting_anomalies: true
+  
+  # Thresholds for anomaly detection
+  anomaly_thresholds:
+    daily_change_percent: 50  # Alert if daily change > 50%
+    zero_consecutive_days: 7  # Alert if zeros for 7+ consecutive days
+
+# Feature Engineering Configuration
+features:
+  rolling_windows:
+    - 7
+    - 14
+  
+  temporal_features:
+    - "week_number"
+    - "month"
+    - "quarter"
+    - "year"
+    - "day_of_week"
+    - "weekend_flag"
+
+# KPI Configuration
+kpi:
+  pressure_thresholds:
+    high_load: 10000  # High load threshold
+    critical_load: 15000  # Critical load threshold
+  
+  volatility_thresholds:
+    low: 0.1
+    medium: 0.3
+    high: 0.5
+
+# Analytics Configuration
+analytics:
+  capacity_stress:
+    threshold_percent: 0.8  # 80% capacity threshold
+  
+  backlog:
+    accumulation_window: 30  # 30-day window for backlog analysis
+  
+  pressure_windows:
+    - 7   # Weekly
+    - 14  # Bi-weekly
+    - 30  # Monthly
+
+# Visualization Configuration
+visualization:
+  figure_size:
+    width: 12
+    height: 6
+  
+  colors:
+    primary: "#1f77b4"
+    secondary: "#ff7f0e"
+    tertiary: "#2ca02c"
+    warning: "#d62728"
+    info: "#9467bd"
+  
+  save_format: "png"
+  dpi: 300
+
+# Report Configuration
+report:
+  output_path: "reports/"
+  filename_prefix: "capacity_analytics_report"
+  include_sections:
+    - "executive_summary"
+    - "dataset_overview"
+    - "validation_report"
+    - "eda"
+    - "kpis"
+    - "pressure_analysis"
+    - "recommendations"
+    - "conclusion"
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+  log_level: "info"
+
+# Streamlit Configuration
+streamlit:
+  page_title: "System Capacity & Care Load Analytics"
+  page_icon: "🏥"
+  layout: "wide"
+  theme: "light"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: "logs/app.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
+
+# Export Configuration
+export:
+  formats:
+    - "csv"
+    - "excel"
+    - "pdf"
+  
+  output_path: "output/"

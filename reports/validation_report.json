@@ -1,0 +1,136 @@
+{
+  "missing_values": {
+    "has_missing": "False",
+    "missing_counts": {
+      "Date": 0,
+      "CBP_Apprehended": 0,
+      "CBP_Custody": 0,
+      "Transfers": 0,
+      "HHS_Care": 0,
+      "Discharges": 0
+    },
+    "missing_percentages": {
+      "Date": 0.0,
+      "CBP_Apprehended": 0.0,
+      "CBP_Custody": 0.0,
+      "Transfers": 0.0,
+      "HHS_Care": 0.0,
+      "Discharges": 0.0
+    },
+    "total_missing": 0,
+    "status": "PASS"
+  },
+  "duplicate_dates": {
+    "has_duplicates": "False",
+    "duplicate_count": 0,
+    "duplicate_percentage": 0.0,
+    "status": "PASS"
+  },
+  "transfers_le_cbp": {
+    "has_violations": "True",
+    "violation_count": 138,
+    "violation_percentage": 12.837209302325581,
+    "status": "FAIL"
+  },
+  "discharges_le_hhs": {
+    "has_violations": "False",
+    "violation_count": 0,
+    "violation_percentage": 0.0,
+    "status": "PASS"
+  },
+  "negative_values": {
+    "has_negatives": "False",
+    "negative_counts": {
+      "CBP_Apprehended": "0",
+      "CBP_Custody": "0",
+      "Transfers": "0",
+      "HHS_Care": "0",
+      "Discharges": "0"
+    },
+    "total_negatives": 0,
+    "status": "PASS"
+  },
+  "reporting_anomalies": {
+    "has_anomalies": true,
+    "anomalies": {
+      "large_changes": [
+        {
+          "column": "CBP_Apprehended",
+          "count": 185,
+          "max_change": Infinity,
+          "dates": [
+            13,
+            27,
+            32,
+            39,
+            46,
+            49,
+            56,
+            63,
+            67,
+            69
+          ]
+        },
+        {
+          "column": "CBP_Custody",
+          "count": 64,
+          "max_change": 880.0000000000001,
+          "dates": [
+            17,
+            21,
+            27,
+            82,
+            131,
+            153,
+            160,
+            210,
+            265,
+            287
+          ]
+        },
+        {
+          "column": "Transfers",
+          "count": 133,
+          "max_change": Infinity,
+          "dates": [
+            17,
+            18,
+            26,
+            27,
+            153,
+            154,
+            158,
+            159,
+            160,
+            287
+          ]
+        },
+        {
+          "column": "Discharges",
+          "count": 100,
+          "max_change": Infinity,
+          "dates": [
+            17,
+            27,
+            42,
+            48,
+            62,
+            90,
+            154,
+            173,
+            195,
+            202
+          ]
+        }
+      ],
+      "extended_zeros": {}
+    },
+    "status": "PASS"
+  },
+  "overall_status": "FAIL",
+  "failed_checks": [
+    "transfers_le_cbp"
+  ],
+  "warning_checks": [],
+  "validation_timestamp": "2026-10-14T21:23:23.337224"
+}
